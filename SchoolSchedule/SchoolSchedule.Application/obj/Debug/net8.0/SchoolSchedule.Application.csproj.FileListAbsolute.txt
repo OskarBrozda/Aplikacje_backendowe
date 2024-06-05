@@ -1,0 +1,15 @@
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.csproj.AssemblyReference.cache
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.AssemblyInfoInputs.cache
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.AssemblyInfo.cs
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.csproj.CoreCompileInputs.cache
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\bin\Debug\net8.0\SchoolSchedule.Application.deps.json
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\bin\Debug\net8.0\SchoolSchedule.Application.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\bin\Debug\net8.0\SchoolSchedule.Application.pdb
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\bin\Debug\net8.0\SchoolSchedule.Core.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\bin\Debug\net8.0\SchoolSchedule.Core.pdb
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSc.3B7E35D0.Up2Date
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\refint\SchoolSchedule.Application.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.pdb
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\ref\SchoolSchedule.Application.dll
