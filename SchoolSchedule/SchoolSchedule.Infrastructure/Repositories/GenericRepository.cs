@@ -33,15 +33,37 @@ namespace SchoolSchedule.Infrastructure.Repositories
 
         public async Task UpdateAsync(T entity)
         {
-            _dbSet.Update(entity);
-            await _context.SaveChangesAsync();
+            _context.Entry(entity).State = EntityState.Modified;
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!EntityExists((int)entity.GetType().GetProperty("Id").GetValue(entity, null)))
+                {
+                    throw new Exception("Entity not found");
+                }
+                else
+                {
+                    throw;
+                }
+            }
         }
 
         public async Task DeleteAsync(int id)
         {
             var entity = await _dbSet.FindAsync(id);
-            _dbSet.Remove(entity);
-            await _context.SaveChangesAsync();
+            if (entity != null)
+            {
+                _dbSet.Remove(entity);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        private bool EntityExists(int id)
+        {
+            return _dbSet.Find(id) != null;
         }
     }
 }

@@ -13,3 +13,4 @@
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\refint\SchoolSchedule.Application.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.pdb
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\ref\SchoolSchedule.Application.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Application\obj\Debug\net8.0\SchoolSchedule.Application.sourcelink.json

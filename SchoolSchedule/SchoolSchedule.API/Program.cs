@@ -1,54 +1,71 @@
 ﻿using CleanArchitectureSolution.Entities;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using SchoolSchedule.Application.Interfaces;
 using SchoolSchedule.Application.Services;
+using SchoolSchedule.Core.Entities;
 using SchoolSchedule.Core.Interfaces;
 using SchoolSchedule.Infrastructure.Data;
 using SchoolSchedule.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodanie usług do kontenera.
-if (builder.Environment.IsDevelopment())
-{
-    builder.Services.AddDbContext<SchoolScheduleContext>(options =>
-        options.UseInMemoryDatabase("SchoolScheduleDb"));
-}
-else
-{
-    builder.Services.AddDbContext<SchoolScheduleContext>(options =>
-        options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-}
+// Add services to the container.
+builder.Services.AddDbContext<SchoolScheduleContext>(options =>
+    options.UseInMemoryDatabase("SchoolScheduleDb"));
 
 builder.Services.AddScoped<IGenericRepository<Lesson>, GenericRepository<Lesson>>();
 builder.Services.AddScoped<IGenericRepository<Grade>, GenericRepository<Grade>>();
 builder.Services.AddScoped<IGenericRepository<Attendance>, GenericRepository<Attendance>>();
+builder.Services.AddScoped<IGenericRepository<Student>, GenericRepository<Student>>();
+builder.Services.AddScoped<IGenericRepository<GradeCategory>, GenericRepository<GradeCategory>>();
 
 builder.Services.AddScoped<ILessonService, LessonService>();
 builder.Services.AddScoped<IGradeService, GradeService>();
 builder.Services.AddScoped<IAttendanceService, AttendanceService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IGradeCategoryService, GradeCategoryService>();
 
 builder.Services.AddControllers();
 
-// Dodanie Swagger
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new() { Title = "SchoolSchedule API", Version = "v1" });
-});
+// Add Swagger services
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Konfiguracja potoku przetwarzania żądań.
+// Initialize the database
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<SchoolScheduleContext>();
+    DbInitializer.Initialize(context);
+}
+
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    // Użycie Swagger
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SchoolSchedule API v1"));
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "SchoolSchedule API V1");
+    });
+}
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();

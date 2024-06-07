@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SchoolSchedule.Application.Interfaces;
 using SchoolSchedule.Application.DTOs;
+using SchoolSchedule.Application.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SchoolSchedule.API.Controllers
 {
@@ -15,29 +18,37 @@ namespace SchoolSchedule.API.Controllers
             _attendanceService = attendanceService;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<AttendanceDto>>> GetAttendances()
+        {
+            var attendances = await _attendanceService.GetAllAttendancesAsync();
+            return Ok(attendances);
+        }
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<AttendanceDto>> GetAttendanceById(int id)
+        public async Task<ActionResult<AttendanceDto>> GetAttendance(int id)
         {
             var attendance = await _attendanceService.GetAttendanceByIdAsync(id);
             if (attendance == null)
             {
                 return NotFound();
             }
-            return Ok(attendance);
-        }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<AttendanceDto>>> GetAllAttendances()
-        {
-            var attendances = await _attendanceService.GetAllAttendancesAsync();
-            return Ok(attendances);
+            return Ok(attendance);
         }
 
         [HttpPost]
         public async Task<ActionResult> AddAttendance(AttendanceDto attendanceDto)
         {
-            await _attendanceService.AddAttendanceAsync(attendanceDto);
-            return CreatedAtAction(nameof(GetAttendanceById), new { id = attendanceDto.Id }, attendanceDto);
+            try
+            {
+                await _attendanceService.AddAttendanceAsync(attendanceDto);
+                return CreatedAtAction(nameof(GetAttendance), new { id = attendanceDto.Id }, attendanceDto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("{id}")]
@@ -48,8 +59,15 @@ namespace SchoolSchedule.API.Controllers
                 return BadRequest();
             }
 
-            await _attendanceService.UpdateAttendanceAsync(attendanceDto);
-            return NoContent();
+            try
+            {
+                await _attendanceService.UpdateAttendanceAsync(attendanceDto);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]

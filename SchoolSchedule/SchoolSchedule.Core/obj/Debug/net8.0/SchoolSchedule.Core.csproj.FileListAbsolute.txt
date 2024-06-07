@@ -9,3 +9,4 @@
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Core\obj\Debug\net8.0\refint\SchoolSchedule.Core.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Core\obj\Debug\net8.0\SchoolSchedule.Core.pdb
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Core\obj\Debug\net8.0\ref\SchoolSchedule.Core.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Core\obj\Debug\net8.0\SchoolSchedule.Core.sourcelink.json

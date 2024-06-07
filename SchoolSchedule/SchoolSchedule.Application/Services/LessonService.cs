@@ -1,12 +1,7 @@
-﻿using CleanArchitectureSolution.Entities;
-using SchoolSchedule.Application.DTOs;
+﻿using SchoolSchedule.Application.DTOs;
 using SchoolSchedule.Application.Interfaces;
+using SchoolSchedule.Core.Entities; 
 using SchoolSchedule.Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolSchedule.Application.Services
 {
@@ -39,7 +34,14 @@ namespace SchoolSchedule.Application.Services
 
         public async Task UpdateLessonAsync(LessonDto lessonDto)
         {
-            var lesson = new Lesson { Id = lessonDto.Id, Title = lessonDto.Title, Description = lessonDto.Description };
+            var lesson = await _lessonRepository.GetByIdAsync(lessonDto.Id);
+            if (lesson == null)
+            {
+                throw new Exception("Lesson not found");
+            }
+
+            lesson.Title = lessonDto.Title;
+            lesson.Description = lessonDto.Description;
             await _lessonRepository.UpdateAsync(lesson);
         }
 

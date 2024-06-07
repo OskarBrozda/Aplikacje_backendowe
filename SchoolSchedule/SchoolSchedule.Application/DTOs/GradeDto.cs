@@ -6,5 +6,6 @@
         public int Value { get; set; }
         public int LessonId { get; set; }
         public int GradeCategoryId { get; set; }
+        public int StudentId { get; set; } 
     }
 }

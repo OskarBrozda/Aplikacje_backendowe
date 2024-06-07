@@ -1,9 +1,7 @@
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Infrastructure.deps.json
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Infrastructure.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Infrastructure.pdb
-\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Application.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Core.dll
-\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Application.pdb
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Core.pdb
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\SchoolSchedule.Infrastructure.csproj.AssemblyReference.cache
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\SchoolSchedule.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,5 +13,6 @@
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\refint\SchoolSchedule.Infrastructure.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\SchoolSchedule.Infrastructure.pdb
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\ref\SchoolSchedule.Infrastructure.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\SchoolSchedule.Infrastructure.sourcelink.json
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\bin\Debug\net8.0\SchoolSchedule.Infrastructure.runtimeconfig.json
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.Infrastructure\obj\Debug\net8.0\SchoolSchedule.Infrastructure.genruntimeconfig.cache

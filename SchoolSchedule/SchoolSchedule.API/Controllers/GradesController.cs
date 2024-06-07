@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SchoolSchedule.Application.Interfaces;
 using SchoolSchedule.Application.DTOs;
+using SchoolSchedule.Application.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SchoolSchedule.API.Controllers
 {
@@ -15,29 +18,37 @@ namespace SchoolSchedule.API.Controllers
             _gradeService = gradeService;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<GradeDto>>> GetGrades()
+        {
+            var grades = await _gradeService.GetAllGradesAsync();
+            return Ok(grades);
+        }
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<GradeDto>> GetGradeById(int id)
+        public async Task<ActionResult<GradeDto>> GetGrade(int id)
         {
             var grade = await _gradeService.GetGradeByIdAsync(id);
             if (grade == null)
             {
                 return NotFound();
             }
-            return Ok(grade);
-        }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<GradeDto>>> GetAllGrades()
-        {
-            var grades = await _gradeService.GetAllGradesAsync();
-            return Ok(grades);
+            return Ok(grade);
         }
 
         [HttpPost]
         public async Task<ActionResult> AddGrade(GradeDto gradeDto)
         {
-            await _gradeService.AddGradeAsync(gradeDto);
-            return CreatedAtAction(nameof(GetGradeById), new { id = gradeDto.Id }, gradeDto);
+            try
+            {
+                await _gradeService.AddGradeAsync(gradeDto);
+                return CreatedAtAction(nameof(GetGrade), new { id = gradeDto.Id }, gradeDto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("{id}")]
@@ -48,8 +59,15 @@ namespace SchoolSchedule.API.Controllers
                 return BadRequest();
             }
 
-            await _gradeService.UpdateGradeAsync(gradeDto);
-            return NoContent();
+            try
+            {
+                await _gradeService.UpdateGradeAsync(gradeDto);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]

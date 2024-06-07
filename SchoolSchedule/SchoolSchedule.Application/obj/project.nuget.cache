@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NBB0bc23DlF+CpFZNmKVuPWZ0C0BvExApvNqpc/pVh3iWqROuyJ6b1m7wNP0QcIHK+zV+Cy+TUADfHJxEonU7Q==",
+  "dgSpecHash": "hl0wgqajI0uB9iJyr7in9O4pONqXoqODjx6TVCbD45EmPfABvRyIYczHR+Y35PrMu38rxYfoAdQczNvr+wbcwg==",
   "success": true,
   "projectFilePath": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\SchoolSchedule.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\oskarbrozda\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\oskarbrozda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

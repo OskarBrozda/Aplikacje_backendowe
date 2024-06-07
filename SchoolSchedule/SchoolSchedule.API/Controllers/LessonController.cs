@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SchoolSchedule.Application.Interfaces;
 using SchoolSchedule.Application.DTOs;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace SchoolSchedule.API.Controllers
 {

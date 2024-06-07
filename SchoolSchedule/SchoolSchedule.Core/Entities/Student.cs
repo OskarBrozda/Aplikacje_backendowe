@@ -1,4 +1,6 @@
-﻿namespace CleanArchitectureSolution.Entities
+﻿using SchoolSchedule.Core.Entities;
+
+namespace CleanArchitectureSolution.Entities
 {
     public class Student
     {

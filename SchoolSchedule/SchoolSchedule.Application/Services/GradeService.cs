@@ -1,45 +1,76 @@
 ﻿using CleanArchitectureSolution.Entities;
 using SchoolSchedule.Application.DTOs;
 using SchoolSchedule.Application.Interfaces;
+using SchoolSchedule.Core.Entities;
 using SchoolSchedule.Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolSchedule.Application.Services
 {
     public class GradeService : IGradeService
     {
         private readonly IGenericRepository<Grade> _gradeRepository;
+        private readonly IGenericRepository<Student> _studentRepository;
 
-        public GradeService(IGenericRepository<Grade> gradeRepository)
+        public GradeService(IGenericRepository<Grade> gradeRepository, IGenericRepository<Student> studentRepository)
         {
             _gradeRepository = gradeRepository;
+            _studentRepository = studentRepository;
         }
 
         public async Task<GradeDto> GetGradeByIdAsync(int id)
         {
             var grade = await _gradeRepository.GetByIdAsync(id);
-            return grade != null ? new GradeDto { Id = grade.Id, Value = grade.Value, LessonId = grade.LessonId, GradeCategoryId = grade.GradeCategoryId } : null;
+            return grade != null ? new GradeDto
+            {
+                Id = grade.Id,
+                Value = grade.Value,
+                LessonId = grade.LessonId,
+                StudentId = grade.StudentId
+            } : null;
         }
 
         public async Task<IEnumerable<GradeDto>> GetAllGradesAsync()
         {
             var grades = await _gradeRepository.GetAllAsync();
-            return grades.Select(grade => new GradeDto { Id = grade.Id, Value = grade.Value, LessonId = grade.LessonId, GradeCategoryId = grade.GradeCategoryId });
+            return grades.Select(grade => new GradeDto
+            {
+                Id = grade.Id,
+                Value = grade.Value,
+                LessonId = grade.LessonId,
+                StudentId = grade.StudentId
+            });
         }
 
         public async Task AddGradeAsync(GradeDto gradeDto)
         {
-            var grade = new Grade { Value = gradeDto.Value, LessonId = gradeDto.LessonId, GradeCategoryId = gradeDto.GradeCategoryId };
+            var student = await _studentRepository.GetByIdAsync(gradeDto.StudentId);
+            if (student == null)
+            {
+                throw new Exception("Student not found");
+            }
+
+            var grade = new Grade
+            {
+                Value = gradeDto.Value,
+                LessonId = gradeDto.LessonId,
+                StudentId = gradeDto.StudentId
+            };
+
             await _gradeRepository.AddAsync(grade);
         }
 
         public async Task UpdateGradeAsync(GradeDto gradeDto)
         {
-            var grade = new Grade { Id = gradeDto.Id, Value = gradeDto.Value, LessonId = gradeDto.LessonId, GradeCategoryId = gradeDto.GradeCategoryId };
+            var grade = await _gradeRepository.GetByIdAsync(gradeDto.Id);
+            if (grade == null)
+            {
+                throw new Exception("Grade not found");
+            }
+
+            grade.Value = gradeDto.Value;
+            grade.LessonId = gradeDto.LessonId;
+            grade.StudentId = gradeDto.StudentId;
+
             await _gradeRepository.UpdateAsync(grade);
         }
 
@@ -49,3 +80,4 @@ namespace SchoolSchedule.Application.Services
         }
     }
 }
+
