@@ -3,106 +3,70 @@
   "WorkspaceRootPath": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\schoolschedule.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\data\\schoolschedulecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\migrations\\schoolschedulecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\schoolschedule.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\gradecategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\gradecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\gradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\interfaces\\igradecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\interfaces\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\interfaces\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\services\\gradecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\services\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\entities\\gradecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\schoolschedule.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\schoolschedule.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B40A6E18-967B-45C1-851C-5973F12A447F}|SchoolSchedule.Core\\SchoolSchedule.Core.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.core\\entities\\webapiuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\schoolschedule.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6802E97A-9B38-4F65-AA7C-15E8D392BFA1}|SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.infrastructure\\settings\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\schoolschedule.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\gradecategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\schoolschedule.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\dtos\\gradecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10552409-DD3C-4A9A-8282-8A58F0035694}|SchoolSchedule.Application\\SchoolSchedule.Application.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.application\\services\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C949DD24-15CF-40EE-B46C-282FAE703564}|SchoolSchedule.API\\SchoolSchedule.API.csproj|\\\\mac\\github\\aplikacje_backendowe\\schoolschedule\\schoolschedule.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,50 +76,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.API\\Program.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Program.cs",
-              "RelativeToolTip": "SchoolSchedule.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:57:13.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SchoolScheduleContext.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Data\\SchoolScheduleContext.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Data\\SchoolScheduleContext.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Data\\SchoolScheduleContext.cs",
-              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Data\\SchoolScheduleContext.cs",
-              "ViewState": "AQIAAAgAAADAZmZmZqY6wBcAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:54:34.63Z",
+              "Title": "SchoolSchedule.API.http",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.http",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\SchoolSchedule.API.http",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.http",
+              "RelativeToolTip": "SchoolSchedule.API\\SchoolSchedule.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-07T16:48:35.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Data\\DbInitializer.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Data\\DbInitializer.cs",
-              "ViewState": "AQIAADIAAAAAVDMzMzPjvwsAAAAnAAAA",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:15:09.982Z",
+              "WhenOpened": "2024-06-07T16:04:44.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Core\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "SchoolSchedule.Core\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T16:04:05.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SchoolSchedule.API",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "RelativeToolTip": "SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T15:13:15.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Program.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Program.cs",
+              "RelativeToolTip": "SchoolSchedule.API\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:59:08.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecurityController.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\SecurityController.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\SecurityController.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\SecurityController.cs",
+              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\SecurityController.cs",
+              "ViewState": "AQIAABoAAADgZmZmZmYdwDQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:07:33.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\appsettings.json",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\appsettings.json",
+              "RelativeToolTip": "SchoolSchedule.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T15:05:29.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "SchoolSchedule.Core\\Interfaces\\IGenericRepository.cs",
@@ -163,116 +179,51 @@
               "RelativeToolTip": "SchoolSchedule.Core\\Interfaces\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:20:49.345Z",
+              "WhenOpened": "2024-06-07T16:14:09.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:43:21.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Services\\StudentService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\StudentService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:01:15.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SchoolScheduleContextModelSnapshot.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Migrations\\SchoolScheduleContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Migrations\\SchoolScheduleContextModelSnapshot.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Migrations\\SchoolScheduleContextModelSnapshot.cs",
-              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Migrations\\SchoolScheduleContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:49:56.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "AttendancesController.cs",
               "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\AttendancesController.cs",
               "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\AttendancesController.cs",
               "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\AttendancesController.cs",
               "RelativeToolTip": "SchoolSchedule.API\\Controllers\\AttendancesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:41:26.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GradeCategoriesController.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
-              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:56:38.244Z",
+              "WhenOpened": "2024-06-07T15:10:29.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GradesController.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradesController.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\GradesController.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradesController.cs",
-              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\GradesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAXAAAA",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:41:36.546Z",
+              "WhenOpened": "2024-06-07T16:13:49.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "LessonController.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\LessonController.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\LessonController.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\LessonController.cs",
-              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\LessonController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:03:06.082Z",
+              "Title": "SchoolSchedule.Infrastructure",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
+              "RelativeToolTip": "SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T16:13:43.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\StudentsController.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:01:34.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AttendanceDto.cs",
               "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\AttendanceDto.cs",
               "RelativeDocumentMoniker": "SchoolSchedule.Application\\DTOs\\AttendanceDto.cs",
@@ -280,280 +231,136 @@
               "RelativeToolTip": "SchoolSchedule.Application\\DTOs\\AttendanceDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:21:59.525Z",
+              "WhenOpened": "2024-06-07T16:00:58.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GradeDto.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\GradeDto.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\DTOs\\GradeDto.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\GradeDto.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\DTOs\\GradeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "WebApiUser.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\WebApiUser.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Core\\Entities\\WebApiUser.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\WebApiUser.cs",
+              "RelativeToolTip": "SchoolSchedule.Core\\Entities\\WebApiUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:55:18.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LessonDto.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\LessonDto.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\DTOs\\LessonDto.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\LessonDto.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\DTOs\\LessonDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:03:26.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "StudentDto.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\StudentDto.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\DTOs\\StudentDto.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\StudentDto.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\DTOs\\StudentDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:00:36.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IAttendanceService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IAttendanceService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Interfaces\\IAttendanceService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IAttendanceService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Interfaces\\IAttendanceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:21:50.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IGradeService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IGradeService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Interfaces\\IGradeService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IGradeService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Interfaces\\IGradeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:21:42.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IStudentService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Interfaces\\IStudentService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IStudentService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Interfaces\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:00:54.798Z",
+              "WhenOpened": "2024-06-07T16:02:44.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "GradeCategoryDto.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\LessonController.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\LessonController.cs",
+              "ViewState": "AQIAABQAAAAA1MzMzMwFwAkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:54:55.95Z",
+              "WhenOpened": "2024-06-07T15:10:41.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GradeCategoryService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\GradeCategoryService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Services\\GradeCategoryService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\GradeCategoryService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Services\\GradeCategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
+              "DocumentIndex": 12,
+              "Title": "JwtConfig.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Settings\\JwtConfig.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\Settings\\JwtConfig.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\Settings\\JwtConfig.cs",
+              "RelativeToolTip": "SchoolSchedule.Infrastructure\\Settings\\JwtConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:55:58.73Z",
+              "WhenOpened": "2024-06-07T15:06:42.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GradeService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\GradeService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Services\\GradeService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\GradeService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Services\\GradeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "DocumentIndex": 15,
+              "Title": "GradeCategoriesController.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
+              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\GradeCategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:21:04.037Z",
+              "WhenOpened": "2024-06-07T15:10:35.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LessonService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\LessonService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Services\\LessonService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\LessonService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Services\\LessonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:03:08.805Z",
+              "DocumentIndex": 17,
+              "Title": "SchoolSchedule.API",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "RelativeToolTip": "SchoolSchedule.API\\SchoolSchedule.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T15:42:24.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IGradeCategoryService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IGradeCategoryService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Interfaces\\IGradeCategoryService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\IGradeCategoryService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Interfaces\\IGradeCategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T08:55:43.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AttendanceService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\AttendanceService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Services\\AttendanceService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\AttendanceService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Services\\AttendanceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:21:05.457Z",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Properties\\launchSettings.json",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SchoolSchedule.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T15:42:25.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ILessonService.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\ILessonService.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Interfaces\\ILessonService.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Interfaces\\ILessonService.cs",
-              "RelativeToolTip": "SchoolSchedule.Application\\Interfaces\\ILessonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:03:23.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Grade.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\Grade.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Core\\Entities\\Grade.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\Grade.cs",
-              "RelativeToolTip": "SchoolSchedule.Core\\Entities\\Grade.cs",
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\LessonService.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Application\\Services\\LessonService.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\Services\\LessonService.cs",
+              "RelativeToolTip": "SchoolSchedule.Application\\Services\\LessonService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:20:53.361Z",
+              "WhenOpened": "2024-06-07T15:32:32.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GradeCategory.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\GradeCategory.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Core\\Entities\\GradeCategory.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\GradeCategory.cs",
-              "RelativeToolTip": "SchoolSchedule.Core\\Entities\\GradeCategory.cs",
+              "DocumentIndex": 19,
+              "Title": "GradeCategoryDto.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
+              "RelativeToolTip": "SchoolSchedule.Application\\DTOs\\GradeCategoryDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:21:00.331Z",
+              "WhenOpened": "2024-06-07T15:32:37.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Student.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Core\\Entities\\Student.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\Student.cs",
-              "RelativeToolTip": "SchoolSchedule.Core\\Entities\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 18,
+              "Title": "GradesController.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradesController.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\GradesController.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\GradesController.cs",
+              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\GradesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:20:51.48Z",
+              "WhenOpened": "2024-06-07T15:10:38.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Lesson.cs",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\Lesson.cs",
-              "RelativeDocumentMoniker": "SchoolSchedule.Core\\Entities\\Lesson.cs",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\Entities\\Lesson.cs",
-              "RelativeToolTip": "SchoolSchedule.Core\\Entities\\Lesson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 21,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "SchoolSchedule.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "SchoolSchedule.API\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:05:10.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SchoolSchedule.Infrastructure.csproj",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
-              "RelativeToolTip": "SchoolSchedule.Infrastructure\\SchoolSchedule.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T14:02:58.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SchoolSchedule.Core.csproj",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\SchoolSchedule.Core.csproj",
-              "RelativeDocumentMoniker": "SchoolSchedule.Core\\SchoolSchedule.Core.csproj",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Core\\SchoolSchedule.Core.csproj",
-              "RelativeToolTip": "SchoolSchedule.Core\\SchoolSchedule.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T11:33:31.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SchoolSchedule.Application.csproj",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\SchoolSchedule.Application.csproj",
-              "RelativeDocumentMoniker": "SchoolSchedule.Application\\SchoolSchedule.Application.csproj",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.Application\\SchoolSchedule.Application.csproj",
-              "RelativeToolTip": "SchoolSchedule.Application\\SchoolSchedule.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T10:24:54.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SchoolSchedule.API.csproj",
-              "DocumentMoniker": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.csproj",
-              "RelativeDocumentMoniker": "SchoolSchedule.API\\SchoolSchedule.API.csproj",
-              "ToolTip": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SchoolSchedule.API\\SchoolSchedule.API.csproj",
-              "RelativeToolTip": "SchoolSchedule.API\\SchoolSchedule.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T10:26:04.87Z",
+              "WhenOpened": "2024-06-07T15:10:44.517Z",
               "EditorCaption": ""
             }
           ]

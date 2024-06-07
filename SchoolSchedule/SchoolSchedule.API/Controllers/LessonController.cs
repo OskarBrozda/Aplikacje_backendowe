@@ -3,9 +3,11 @@ using SchoolSchedule.Application.Interfaces;
 using SchoolSchedule.Application.DTOs;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SchoolSchedule.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class LessonsController : ControllerBase

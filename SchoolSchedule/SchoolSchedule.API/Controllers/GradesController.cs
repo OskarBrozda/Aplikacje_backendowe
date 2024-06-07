@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SchoolSchedule.Application.DTOs;
 using SchoolSchedule.Application.Interfaces;
 using System;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace SchoolSchedule.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class GradesController : ControllerBase
