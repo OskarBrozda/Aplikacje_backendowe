@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using SchoolSchedule.API.Controllers;
 using SchoolSchedule.Application.DTOs;
 using SchoolSchedule.Application.Interfaces;
-namespace SchoolSchedule.Tests
+
+namespace SchoolSchedule.Tests.ControllerTests
 {
     public class StudentsControllerTests
     {

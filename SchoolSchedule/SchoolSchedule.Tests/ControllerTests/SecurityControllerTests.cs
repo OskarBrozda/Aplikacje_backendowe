@@ -9,7 +9,7 @@ using System.Text;
 using WebApi.Domain.Model;
 using WebApi.Repository;
 
-namespace SchoolSchedule.Tests
+namespace SchoolSchedule.Tests.ControllerTests
 {
     public class SecurityControllerTests
     {
