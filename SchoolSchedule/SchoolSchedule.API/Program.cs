@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
@@ -28,13 +27,13 @@ builder.Services.AddScoped<IGenericRepository<Grade>, GenericRepository<Grade>>(
 builder.Services.AddScoped<IGenericRepository<Attendance>, GenericRepository<Attendance>>();
 builder.Services.AddScoped<IGenericRepository<Student>, GenericRepository<Student>>();
 builder.Services.AddScoped<IGenericRepository<GradeCategory>, GenericRepository<GradeCategory>>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddScoped<ILessonService, LessonService>();
 builder.Services.AddScoped<IGradeService, GradeService>();
 builder.Services.AddScoped<IAttendanceService, AttendanceService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IGradeCategoryService, GradeCategoryService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddControllers();
 
@@ -64,7 +63,6 @@ builder.Services.AddSwaggerGen(c =>
     }
   });
 });
-
 
 // Configure JWT settings
 var jwtSection = builder.Configuration.GetSection("Jwt");
@@ -123,7 +121,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
