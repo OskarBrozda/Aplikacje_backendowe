@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SchoolSchedule.API.Middleware;
 using SchoolSchedule.Application.Interfaces;
 using SchoolSchedule.Application.Services;
 using SchoolSchedule.Core.Entities;
@@ -123,6 +124,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseMiddleware<RequestLoggingMiddleware>();
 
 app.MapControllers();
 
