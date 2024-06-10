@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "WBjHw2oREZIpW5tvpTviKcAdfQArltkkbdhkcs0MhqQ=",
+  "Hash": "Md8I/99FLx2ug19bKbZjKk2eyk+bHf86mdq9vUrRgTY=",
   "Source": "SchoolSchedule.API",
   "BasePath": "_content/SchoolSchedule.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "\\\\Mac\\GitHub\\Aplikacje_backendowe\\SchoolSchedule\\SoapService\\SoapService.csproj",
+      "Version": 2,
+      "Source": "SoapService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

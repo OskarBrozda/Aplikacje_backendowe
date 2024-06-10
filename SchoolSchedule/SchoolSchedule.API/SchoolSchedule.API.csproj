@@ -7,6 +7,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\SchoolSchedule.Application\SchoolSchedule.Application.csproj" />
 		<ProjectReference Include="..\SchoolSchedule.Infrastructure\SchoolSchedule.Infrastructure.csproj" />
+		<ProjectReference Include="..\SoapService\SoapService.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -16,6 +17,7 @@
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="SoapCore" Version="1.1.0.49" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	</ItemGroup>
 

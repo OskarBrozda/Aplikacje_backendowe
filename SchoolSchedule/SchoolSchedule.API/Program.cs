@@ -14,6 +14,8 @@ using SchoolSchedule.Core.Interfaces;
 using SchoolSchedule.Infrastructure.Data;
 using SchoolSchedule.Infrastructure.Repositories;
 using SchoolSchedule.Infrastructure.Settings;
+using SoapCore;
+using SoapService.ServiceContract;
 using System.Text;
 using WebApi.Repository;
 
@@ -35,6 +37,10 @@ builder.Services.AddScoped<IGradeService, GradeService>();
 builder.Services.AddScoped<IAttendanceService, AttendanceService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IGradeCategoryService, GradeCategoryService>();
+
+// Add SoapCore services
+builder.Services.AddSoapCore();
+builder.Services.AddSingleton<IUserService, UserService>();
 
 builder.Services.AddControllers();
 
@@ -128,5 +134,7 @@ app.UseAuthorization();
 app.UseMiddleware<RequestLoggingMiddleware>();
 
 app.MapControllers();
+app.UseSoapEndpoint<IUserService>("/UserService.asmx", new SoapEncoderOptions());
+
 
 app.Run();

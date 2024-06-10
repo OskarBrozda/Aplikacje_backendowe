@@ -172,3 +172,13 @@
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 \\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\SoapCore.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\System.Private.ServiceModel.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\System.ServiceModel.Http.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\System.ServiceModel.Primitives.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\System.ServiceModel.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\SoapService.deps.json
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\SoapService.runtimeconfig.json
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\SoapService.exe
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\SoapService.dll
+\\Mac\GitHub\Aplikacje_backendowe\SchoolSchedule\SchoolSchedule.API\bin\Debug\net8.0\SoapService.pdb
